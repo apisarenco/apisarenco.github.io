@@ -1,8 +1,7 @@
 ---
 title: "About"
 date: 2022-01-18T18:40:50+01:00
-draft: true
-
+draft: false
 ---
 
 ## Hi! I'm Alex.

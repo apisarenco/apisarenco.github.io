@@ -1,29 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>http://apisarenco.github.io/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://apisarenco.github.io/about/</loc>
+    <lastmod>2022-01-18T18:40:50+01:00</lastmod>
+  </url><url>
+    <loc>https://apisarenco.github.io/</loc>
+  </url><url>
+    <loc>https://apisarenco.github.io/categories/</loc>
+  </url><url>
+    <loc>https://apisarenco.github.io/tags/</loc>
   </url>
-  
-  <url>
-    <loc>http://apisarenco.github.io/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://apisarenco.github.io/series/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://apisarenco.github.io/tags/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
 </urlset>

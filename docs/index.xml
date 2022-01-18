@@ -1,15 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alexandru Pisarenco</title>
-    <link>http://apisarenco.github.io/</link>
-    <description>Recent content on Alexandru Pisarenco</description>
+    <link>https://apisarenco.github.io/</link>
+    <description>Alexandru Pisarenco</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Creative Commons</copyright>
     
-        <atom:link href="http://apisarenco.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://apisarenco.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://apisarenco.github.io/about/</link>
+      <pubDate>Tue, 18 Jan 2022 18:40:50 +0100</pubDate>
+      
+      <guid>https://apisarenco.github.io/about/</guid>
+      <description>&lt;h2 id=&#34;hi-im-alex&#34;&gt;Hi! I&amp;rsquo;m Alex.
+&lt;span&gt;
+    &lt;a href=&#34;#hi-im-alex&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19    &#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;Welcome to my attempt at documenting what I do and why I do it.&lt;/p&gt;
+&lt;h3 id=&#34;a-bit-about-me&#34;&gt;A bit about me
+&lt;span&gt;
+    &lt;a href=&#34;#a-bit-about-me&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19    &#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;I&amp;rsquo;m a technical person who sometimes gets very opinionated on subjects that I&amp;rsquo;ve spent a lot of time getting into. I learn a lot every month of my life, and in order to see that I was wrong at some stuff, I need a blog.&lt;/p&gt;
+&lt;p&gt;My day job is a software engineer, which is a fancy way of saying that I&amp;rsquo;m good at telling computers what to do really well and quite fast. Being &lt;del&gt;a software engineer&lt;/del&gt; &lt;strong&gt;a programmer&lt;/strong&gt; is a major part of my identity. I do it as a passion, and I&amp;rsquo;ve been doing it for longer than not doing it. But it&amp;rsquo;s not my only passion. In fact, I&amp;rsquo;m very interested by the following things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Structural engineering&lt;/li&gt;
+&lt;li&gt;Biology&lt;/li&gt;
+&lt;li&gt;Physics&lt;/li&gt;
+&lt;li&gt;Psychology&lt;/li&gt;
+&lt;li&gt;Sociology&lt;/li&gt;
+&lt;li&gt;Economics&lt;/li&gt;
+&lt;li&gt;Making lists&lt;/li&gt;
+&lt;li&gt;Maths&lt;/li&gt;
+&lt;li&gt;Exploring the evolutions of positive feedback loops&lt;/li&gt;
+&lt;li&gt;Sci-fi&lt;/li&gt;
+&lt;li&gt;Understanding music&lt;/li&gt;
+&lt;li&gt;History&lt;/li&gt;
+&lt;li&gt;Philosophy&lt;/li&gt;
+&lt;li&gt;Getting people bored&lt;/li&gt;
+&lt;li&gt;Travel and food&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;hellip; and a bunch of other stuff.&lt;/p&gt;
+&lt;p&gt;Many of them aren&amp;rsquo;t just things that I find fascinating. I&amp;rsquo;ve actually read a few good books - enough to make people leave conversations when I start with &amp;ldquo;actually&amp;hellip;&amp;rdquo; (I try to do that less now).&lt;/p&gt;
+&lt;p&gt;So, I will probably be writing mostly about boring software projects, maybe some rants here and there, praise and critique of books, music, or critique of critique of music. Maybe I should just go on Facebook? Naah, that&amp;rsquo;s too public. Here at least nobody reads all this.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

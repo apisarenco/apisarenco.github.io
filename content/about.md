@@ -1,10 +1,10 @@
 ---
-title: "About"
+title: "Hi! I'm Alex."
 date: 2022-01-18T18:40:50+01:00
 draft: false
 ---
 
-## Hi! I'm Alex.
+
 Welcome to my attempt at documenting what I do and why I do it.
 
 ### A bit about me

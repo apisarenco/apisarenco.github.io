@@ -3,12 +3,8 @@
   <channel>
     <title>Categories on Alexandru Pisarenco</title>
     <link>https://apisarenco.github.io/categories/</link>
-    <description>Alexandru Pisarenco (Categories)</description>
+    <description>Recent content in Categories on Alexandru Pisarenco</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-    <atom:link href="https://apisarenco.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://apisarenco.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

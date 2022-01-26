@@ -1,0 +1,28 @@
+name: GitHub Actions Demo
+on:
+  push:
+    branches: [ main ]
+jobs:
+  Deploy-GitHub-Pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check site config and themes
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+          repository: apisarenco/hugo-github-pages
+          path: gh-base
+      - name: Check out site content
+        uses: actions/checkout@v2
+        with:
+          path: gh-content
+      - name: Rebase site content on main branch
+        run: |
+          pushd ${{ github.workspace }}/gh-content
+          git fetch origin
+          git rebase origin/main
+          popd
+      - name: Install hugo and build pages
+        run: bash ${{ github.workspace }}/gh-base/setup.sh ${{ github.workspace }} gh-base gh-content
+      - name: Commit build
+        run: bash ${{ github.workspace }}/gh-base/gitpush.sh ${{ github.workspace }}

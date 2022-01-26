@@ -25,4 +25,4 @@ jobs:
       - name: Install hugo and build pages
         run: bash ${{ github.workspace }}/gh-base/setup.sh ${{ github.workspace }} gh-base gh-content
       - name: Commit build
-        run: bash ${{ github.workspace }}/gh-base/gitpush.sh ${{ github.workspace }}
+        run: bash ${{ github.workspace }}/gh-base/gitpush.sh ${{ github.workspace }} gh-content

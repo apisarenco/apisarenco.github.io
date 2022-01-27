@@ -54,7 +54,10 @@ I'm still getting the hang of it, so here's how it works so far:
 
 You can add a definition in `.github/workflows` directory in your repository, and it will run when certain conditions are met. [Here's mine](https://github.com/apisarenco/apisarenco.github.io/blob/main/.github/workflows/deploy-gh-pages.yml), for this automatic build. It basically does the following:
 
-1. Clones the configuration repo
-2. Clones the content repo, `build` branch
-3. Downloads the latest release of hugo, as a binary, copies content next to config, and runs the `hugo` command, and then copies the artifacts to the `content` directory
-4. Creates a commit with the changes and pushes it to `build` branch if there are any changes detected
+1. Clones the `configuration` repo
+2. Clones the `content` repo
+3. Clones the `build` branch of the `content` repo separately
+4. Downloads the latest release of hugo, as a binary, copies content next to config, and runs the `hugo` command, and then copies the artifacts to the `build` directory
+5. Creates a commit with the changes and pushes it to `build` branch if there are any changes detected
+
+The reason for a separate `content` and `build` directories from the same repository is that `content` is read-only, and I always get the freshest copy, while `build` is write-only, and will see incremental updates, trackable in git, to the conte that it manages, without any merge conflicts.

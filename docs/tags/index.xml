@@ -7,6 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Creative Commons</copyright>
+    <lastBuildDate>Wed, 19 Jan 2022 00:15:39 +0100</lastBuildDate>
     
         <atom:link href="https://apisarenco.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,8 +18,7 @@
       <pubDate>Wed, 19 Jan 2022 00:15:39 +0100</pubDate>
       
       <guid>https://apisarenco.github.io/2022/01/hugo-pages/</guid>
-      <description>I saw the github pages of Conor Lamb and he had a nice guide there highlighting the &amp;ldquo;easy&amp;rdquo; steps in setting up a &amp;ldquo;modern&amp;rdquo;, &amp;ldquo;not outdated&amp;rdquo; type of &amp;ldquo;blog&amp;rdquo;. Jokes aside, there&amp;rsquo;s a reason why I decided to do it as well. Thanks Conor Lamb for the guide. It kinda helped! 👍
- What&amp;rsquo;s Hugo? Hugo is a static website generator that takes a theme, a list of markdown files, and some config and static content and makes it kiss and make a baby which is this site you&amp;rsquo;re reading now.</description>
+      <description>&lt;p&gt;I saw the github pages of &lt;a href=&#34;https://conorcorp.github.io&#34;&gt;Conor Lamb&lt;/a&gt; and he had a nice guide there highlighting the &amp;ldquo;easy&amp;rdquo; steps in setting up a &amp;ldquo;modern&amp;rdquo;, &amp;ldquo;not outdated&amp;rdquo; type of &amp;ldquo;blog&amp;rdquo;. Jokes aside, there&amp;rsquo;s a reason why I decided to do it as well. Thanks Conor Lamb for the guide. It kinda helped! 👍&lt;/p&gt;</description>
     </item>
     
     <item>

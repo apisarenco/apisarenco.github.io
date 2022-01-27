@@ -10,6 +10,27 @@
   </url>
   
   <url>
+    <loc>https://apisarenco.github.io/categories/</loc>
+    <lastmod>2022-01-19T00:15:39+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://apisarenco.github.io/categories/development/</loc>
+    <lastmod>2022-01-19T00:15:39+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://apisarenco.github.io/tags/hugo/</loc>
+    <lastmod>2022-01-19T00:15:39+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://apisarenco.github.io/2022/01/hugo-pages/</loc>
     <lastmod>2022-01-19T00:15:39+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -24,6 +45,20 @@
   </url>
   
   <url>
+    <loc>https://apisarenco.github.io/tags/</loc>
+    <lastmod>2022-01-19T00:15:39+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://apisarenco.github.io/tags/this/</loc>
+    <lastmod>2022-01-19T00:15:39+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://apisarenco.github.io/about/</loc>
     <lastmod>2022-01-18T18:40:50+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -31,19 +66,7 @@
   </url>
   
   <url>
-    <loc>https://apisarenco.github.io/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://apisarenco.github.io/series/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://apisarenco.github.io/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

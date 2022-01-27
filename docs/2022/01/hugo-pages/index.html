@@ -41,7 +41,7 @@
 <meta itemprop="name" content="Making github pages with hugo">
 <meta itemprop="description" content="I saw the github pages of Conor Lamb and he had a nice guide there highlighting the &ldquo;easy&rdquo; steps in setting up a &ldquo;modern&rdquo;, &ldquo;not outdated&rdquo; type of &ldquo;blog&rdquo;. Jokes aside, there&rsquo;s a reason why I decided to do it as well. Thanks Conor Lamb for the guide. It kinda helped! 👍"><meta itemprop="datePublished" content="2022-01-19T00:15:39+01:00" />
 <meta itemprop="dateModified" content="2022-01-19T00:15:39+01:00" />
-<meta itemprop="wordCount" content="491">
+<meta itemprop="wordCount" content="545">
 <meta itemprop="keywords" content="hugo,this," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Making github pages with hugo"/>
 <meta name="twitter:description" content="I saw the github pages of Conor Lamb and he had a nice guide there highlighting the &ldquo;easy&rdquo; steps in setting up a &ldquo;modern&rdquo;, &ldquo;not outdated&rdquo; type of &ldquo;blog&rdquo;. Jokes aside, there&rsquo;s a reason why I decided to do it as well. Thanks Conor Lamb for the guide. It kinda helped! 👍"/>
@@ -211,7 +211,7 @@
     <a class="article-tag-link" href="/tags/this/"> this </a>
   </span>
 
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 491 words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 545 words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 3 minutes </span>
       </div>
     </div>
@@ -247,11 +247,13 @@
 <p>I&rsquo;m still getting the hang of it, so here&rsquo;s how it works so far:</p>
 <p>You can add a definition in <code>.github/workflows</code> directory in your repository, and it will run when certain conditions are met. <a href="https://github.com/apisarenco/apisarenco.github.io/blob/main/.github/workflows/deploy-gh-pages.yml">Here&rsquo;s mine</a>, for this automatic build. It basically does the following:</p>
 <ol>
-<li>Clones the configuration repo</li>
-<li>Clones the content repo, <code>build</code> branch</li>
-<li>Downloads the latest release of hugo, as a binary, copies content next to config, and runs the <code>hugo</code> command, and then copies the artifacts to the <code>content</code> directory</li>
+<li>Clones the <code>configuration</code> repo</li>
+<li>Clones the <code>content</code> repo</li>
+<li>Clones the <code>build</code> branch of the <code>content</code> repo separately</li>
+<li>Downloads the latest release of hugo, as a binary, copies content next to config, and runs the <code>hugo</code> command, and then copies the artifacts to the <code>build</code> directory</li>
 <li>Creates a commit with the changes and pushes it to <code>build</code> branch if there are any changes detected</li>
 </ol>
+<p>The reason for a separate <code>content</code> and <code>build</code> directories from the same repository is that <code>content</code> is read-only, and I always get the freshest copy, while <code>build</code> is write-only, and will see incremental updates, trackable in git, to the conte that it manages, without any merge conflicts.</p>
     </div>
     <div class="article-footer">
 <blockquote class="mt-2x">

@@ -16,14 +16,12 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: gh-content
+      - name: Check out site build
+        uses: actions/checkout@v2
+        with:
+          path: gh-build
           ref: build
-      - name: Rebase site content on main branch
-        run: |
-          pushd ${{ github.workspace }}/gh-content
-          git fetch origin
-          git rebase -s theirs origin/main
-          popd
       - name: Install hugo and build pages
-        run: bash ${{ github.workspace }}/gh-base/setup.sh ${{ github.workspace }} gh-base gh-content
+        run: bash ${{ github.workspace }}/gh-base/setup.sh ${{ github.workspace }} gh-base gh-content gh-build
       - name: Commit build
-        run: bash ${{ github.workspace }}/gh-base/gitpush.sh ${{ github.workspace }} gh-content
+        run: bash ${{ github.workspace }}/gh-base/gitpush.sh ${{ github.workspace }} gh-build

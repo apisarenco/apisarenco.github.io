@@ -17,12 +17,6 @@ jobs:
         with:
           path: gh-content
           ref: build
-      - name: Rebase site content on main branch
-        run: |
-          pushd ${{ github.workspace }}/gh-content
-          git fetch origin
-          git rebase origin/main
-          popd
       - name: Install hugo and build pages
         run: bash ${{ github.workspace }}/gh-base/setup.sh ${{ github.workspace }} gh-base gh-content
       - name: Commit build

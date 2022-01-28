@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>this on Alexandru Pisarenco</title>
-    <link>https://apisarenco.github.io/tags/this/</link>
+    <link>https://alex.lundas.net/tags/this/</link>
     <description>Recent content in this on Alexandru Pisarenco</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Creative Commons</copyright>
     <lastBuildDate>Wed, 19 Jan 2022 00:15:39 +0100</lastBuildDate>
     
-        <atom:link href="https://apisarenco.github.io/tags/this/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://alex.lundas.net/tags/this/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Making github pages with hugo</title>
-      <link>https://apisarenco.github.io/2022/01/hugo-pages/</link>
+      <link>https://alex.lundas.net/2022/01/hugo-pages/</link>
       <pubDate>Wed, 19 Jan 2022 00:15:39 +0100</pubDate>
       
-      <guid>https://apisarenco.github.io/2022/01/hugo-pages/</guid>
+      <guid>https://alex.lundas.net/2022/01/hugo-pages/</guid>
       <description>&lt;p&gt;I saw the github pages of &lt;a href=&#34;https://conorcorp.github.io&#34;&gt;Conor Lamb&lt;/a&gt; and he had a nice guide there highlighting the &amp;ldquo;easy&amp;rdquo; steps in setting up a &amp;ldquo;modern&amp;rdquo;, &amp;ldquo;not outdated&amp;rdquo; type of &amp;ldquo;blog&amp;rdquo;. Jokes aside, there&amp;rsquo;s a reason why I decided to do it as well. Thanks Conor Lamb for the guide. It kinda helped! 👍&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hi! I&#39;m Alex.</title>
-      <link>https://apisarenco.github.io/about/</link>
+      <link>https://alex.lundas.net/about/</link>
       <pubDate>Tue, 18 Jan 2022 18:40:50 +0100</pubDate>
       
-      <guid>https://apisarenco.github.io/about/</guid>
+      <guid>https://alex.lundas.net/about/</guid>
       <description>Welcome to my attempt at documenting what I do and why I do it.
 A bit about me I&amp;rsquo;m a technical person who sometimes gets very opinionated on subjects that I&amp;rsquo;ve spent a lot of time getting into. I learn a lot every month of my life, and in order to see that I was wrong at some stuff, I need a blog.
 My day job is a software engineer, which is a fancy way of saying that I&amp;rsquo;m good at telling computers what to do really well and quite fast.</description>

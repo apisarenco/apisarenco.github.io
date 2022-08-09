@@ -1,15 +1,26 @@
 ---
-title: "Don't avoid data schemas"
-subtitle: "The usual pitfalls of not having a data schema"
-date: 2022-01-19T01:42:43+01:00
-draft: true
+title: "Data Schema For The Win"
+subtitle: "Creating projects that only seem complex"
+date: 2022-08-08T01:42:43+01:00
+draft: false
+slug: data-schema-for-the-win
+summary: ""
+categories:
+    - Development
+    - Data
+tags:
+    - data
+    - schema
+    - nosql
+description: |
+    Acknowledge and document the data schema at the software architecture level, and you'll have a much smoother application development experience.
 ---
 
 I started off my career in data with relational databases. 18 years ago I've read 10 pages on how to use Microsoft Access, and my eyes sparkled with enthusiasm, as I was imagining how most of the problems that I, as a "techy boy" encountered at different people who were using mostly Excel for things that it wasn't designed to do.
 
 This quickly turned into a 3-month project, where I, an 18 year old teenager, replaced one of the most labour-intensive and error-prone data entry tasks in Excel, with a new MS Access database + front-end and reporting. Decreased operation time from about 20h per month, to just 4h per month, with no need to retroactively fix wrong reports due to manual errors being discovered weeks after those reports were printed and signed.
 
-**It is in use to this very day 18 years later.** There is an IT department which takes care that MS Access works properly on each machine that they manage. I would be horrified today at the code that I wrote then, and how I wrote it. But it works. And nothing has replaced it.
+**It is in use to this very day 18 years later.** There is an IT department which takes care that MS Access works properly on each machine that they manage. I would be horrified today at the code that I wrote then, and how I wrote it. But it works. And nothing has replaced it. It is a **reliable, final** project.
 
 This event shaped my career. It taught me very early and very quickly that as soon as you define your schema, and validate your data according to consistency rules, things will just work down the line. Back then I didn't even understand these words by the way.
 
@@ -113,7 +124,9 @@ Well, sorry for sounding boring, but RDBMS is the proven solution. I'm not sayin
 Make sure that every schema change is documented through a script that does this change, and brings it from `v1` to `v2` for example.
 
 * the data will all have the exact same structure, old and new
-* the history of the schema changes is recorded in git
+* any structure changes that disagree with the data, will not be possible. You won't get errors down the line, you'll see them immediately
+* the history of the schema changes is recorded in version control
+* you can trust the data that is constrained to a schema. There are no surprises
 
 You don't even have to do any of this manually, and likely you don't even have to write a single line of SQL. With modern ORMs, you just focus on the code.
 

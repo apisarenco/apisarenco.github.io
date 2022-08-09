@@ -4,14 +4,56 @@
   
   <url>
     <loc>https://alex.lundas.net/</loc>
-    <lastmod>2022-08-08T01:42:43+01:00</lastmod>
+    <lastmod>2022-08-09T01:42:43+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alex.lundas.net/tags/behavior/</loc>
+    <lastmod>2022-08-09T01:42:43+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://alex.lundas.net/categories/</loc>
-    <lastmod>2022-08-08T01:42:43+01:00</lastmod>
+    <lastmod>2022-08-09T01:42:43+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alex.lundas.net/2022/08/misleading/</loc>
+    <lastmod>2022-08-09T01:42:43+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alex.lundas.net/posts/</loc>
+    <lastmod>2022-08-09T01:42:43+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alex.lundas.net/categories/psychology/</loc>
+    <lastmod>2022-08-09T01:42:43+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alex.lundas.net/tags/</loc>
+    <lastmod>2022-08-09T01:42:43+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alex.lundas.net/tags/teams/</loc>
+    <lastmod>2022-08-09T01:42:43+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -52,21 +94,7 @@
   </url>
   
   <url>
-    <loc>https://alex.lundas.net/posts/</loc>
-    <lastmod>2022-08-08T01:42:43+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://alex.lundas.net/tags/schema/</loc>
-    <lastmod>2022-08-08T01:42:43+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://alex.lundas.net/tags/</loc>
     <lastmod>2022-08-08T01:42:43+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

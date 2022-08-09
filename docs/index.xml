@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Creative Commons</copyright>
-    <lastBuildDate>Mon, 08 Aug 2022 01:42:43 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 09 Aug 2022 01:42:43 +0100</lastBuildDate>
     
         <atom:link href="https://alex.lundas.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Misleading</title>
+      <link>https://alex.lundas.net/2022/08/misleading/</link>
+      <pubDate>Tue, 09 Aug 2022 01:42:43 +0100</pubDate>
+      
+      <guid>https://alex.lundas.net/2022/08/misleading/</guid>
+      <description>you, and YOU What are your hobbies?
+What did you answer? If you answered truthfully, then you&amp;rsquo;re among a minority of people who either came in prepared, with their System 2 activated, or you answer every day based on empirical evidence. Or maybe you really don&amp;rsquo;t have any hobbies and you&amp;rsquo;re OK with it, in which case other questions might trigger the same effect.
+How do you know if you answered truthfully?</description>
+    </item>
     
     <item>
       <title>Data Schema For The Win</title>

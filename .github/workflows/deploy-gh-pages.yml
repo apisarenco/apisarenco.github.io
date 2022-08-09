@@ -22,6 +22,6 @@ jobs:
           path: gh-build
           ref: build
       - name: Install hugo and build pages
-        run: bash ${{ github.workspace }}/gh-base/setup.sh ${{ github.workspace }} gh-base gh-content gh-build
+        run: bash ${{ github.workspace }}/gh-base/setup.sh ${{ github.workspace }} gh-base gh-content gh-build alex.lundas.net
       - name: Commit build
         run: bash ${{ github.workspace }}/gh-base/gitpush.sh ${{ github.workspace }} gh-build

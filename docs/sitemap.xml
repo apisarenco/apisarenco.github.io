@@ -4,21 +4,70 @@
   
   <url>
     <loc>https://alex.lundas.net/</loc>
-    <lastmod>2022-01-19T00:15:39+01:00</lastmod>
+    <lastmod>2022-08-08T01:42:43+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://alex.lundas.net/categories/</loc>
-    <lastmod>2022-01-19T00:15:39+01:00</lastmod>
+    <lastmod>2022-08-08T01:42:43+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alex.lundas.net/tags/data/</loc>
+    <lastmod>2022-08-08T01:42:43+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alex.lundas.net/categories/data/</loc>
+    <lastmod>2022-08-08T01:42:43+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alex.lundas.net/2022/08/data-schema-for-the-win/</loc>
+    <lastmod>2022-08-08T01:42:43+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://alex.lundas.net/categories/development/</loc>
-    <lastmod>2022-01-19T00:15:39+01:00</lastmod>
+    <lastmod>2022-08-08T01:42:43+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alex.lundas.net/tags/nosql/</loc>
+    <lastmod>2022-08-08T01:42:43+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alex.lundas.net/posts/</loc>
+    <lastmod>2022-08-08T01:42:43+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alex.lundas.net/tags/schema/</loc>
+    <lastmod>2022-08-08T01:42:43+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://alex.lundas.net/tags/</loc>
+    <lastmod>2022-08-08T01:42:43+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -32,20 +81,6 @@
   
   <url>
     <loc>https://alex.lundas.net/2022/01/hugo-pages/</loc>
-    <lastmod>2022-01-19T00:15:39+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://alex.lundas.net/posts/</loc>
-    <lastmod>2022-01-19T00:15:39+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://alex.lundas.net/tags/</loc>
     <lastmod>2022-01-19T00:15:39+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

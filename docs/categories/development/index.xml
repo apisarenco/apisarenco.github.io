@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Creative Commons</copyright>
-    <lastBuildDate>Wed, 19 Jan 2022 00:15:39 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 08 Aug 2022 01:42:43 +0100</lastBuildDate>
     
         <atom:link href="https://alex.lundas.net/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data Schema For The Win</title>
+      <link>https://alex.lundas.net/2022/08/data-schema-for-the-win/</link>
+      <pubDate>Mon, 08 Aug 2022 01:42:43 +0100</pubDate>
+      
+      <guid>https://alex.lundas.net/2022/08/data-schema-for-the-win/</guid>
+      <description>I started off my career in data with relational databases. 18 years ago I&amp;rsquo;ve read 10 pages on how to use Microsoft Access, and my eyes sparkled with enthusiasm, as I was imagining how most of the problems that I, as a &amp;ldquo;techy boy&amp;rdquo; encountered at different people who were using mostly Excel for things that it wasn&amp;rsquo;t designed to do.
+This quickly turned into a 3-month project, where I, an 18 year old teenager, replaced one of the most labour-intensive and error-prone data entry tasks in Excel, with a new MS Access database + front-end and reporting.</description>
+    </item>
     
     <item>
       <title>Making github pages with hugo</title>

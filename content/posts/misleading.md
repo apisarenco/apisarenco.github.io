@@ -18,7 +18,7 @@ description: |
 
 *What are your hobbies?*
 
-What did you answer? If you answered truthfully, then you're among a minority of people who either came in prepared, with their System 2 activated, or you answer every day based on empirical evidence. Or maybe you really don't have any hobbies and you're OK with it, in which case other questions might trigger the same effect.
+What did you answer? If you answered truthfully, then you're among a minority of people who either came in prepared, with their [System 2](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) activated, or you answer every day based on empirical evidence. Or maybe you really don't have any hobbies and you're OK with it, in which case other questions might trigger the same effect.
 
 How do you know if you answered truthfully? Find a way to catalog what you do every day. Use empirical evidence for your answer. Many people that I know (and myself is definitely included) like to say a long list of unique hobbies. But when doing the actual remembering, 0% of my time in the last month were devoted to any of the hobbies that I usually list. Instead, my free time is spent doing chores, watching YouTube on a couch, going out for walks and shopping. But you don't say that to people who ask you about your hobbies.
 
